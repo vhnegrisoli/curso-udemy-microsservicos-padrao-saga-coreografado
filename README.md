@@ -13,8 +13,8 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 ### Sumário:
 
 * [Tecnologias](#tecnologias)
-* [Ferramentas utilizadas](#ferramentas)
-* [Arquitetura Proposta](#arch)
+* [Ferramentas utilizadas](#ferramentas-utilizadas)
+* [Arquitetura Proposta](#arquitetura-proposta)
 * [Execução do projeto](#execucao)
   * [01 - Execução geral via docker-compose](#compose)
   * [02 - Execução geral via automação com script em Python](#python)
@@ -40,13 +40,13 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 * **docker-compose**
 * **Redpanda Console**
 
-## [Ferramentas utilizadas](#ferramentas)
+## [Ferramentas utilizadas](#ferramentas-utilizadas)
 
 * **IntelliJ IDEA Community Edition**
 * **Docker**
 * **Gradle**
 
-## [Arquitetura Proposta](#arch)
+## [Arquitetura Proposta](#arquitetura-proposta)
 
 No curso, desenvolveremos a seguinte aquitetura:
 
