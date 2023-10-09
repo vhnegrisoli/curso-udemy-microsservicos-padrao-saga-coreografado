@@ -1,6 +1,12 @@
-# Projeto: Curso Udemy - Arquitetura de Microsserviços: Padrão Saga Coreografado
+# Projeto: Curso Udemy - Arquitetura de Microsserviços: Padrão Saga Orquestrado (AULA BÔNUS)
+
+## Convertendo o projeto Saga Orquestrado para Saga Coreografado
 
 Repositório contendo o projeto de AULA BÔNUS desenvolvido do curso Arquitetura de Microsserviços: Padrão Saga Orquestrado, ministrado por mim para a plataforma Udemy.
+
+O projeto todo foi utilizando a abordagem de Saga Orquestrado, e pode ser visualizado [neste repositório](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-orquestrado/), porém,
+ao final do curso, foi também incluída uma seção de aula bônus, ensinando aos alunos a como
+converter a arquitetura desenvolvida em um Padrão Saga Coreografado, para endenter a implementação e execução de Coreografia na Saga.
 
 Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.com/course/arquitetura-microsservicos-padrao-saga-orquestrado/ (ainda não publicado)
 
