@@ -8,7 +8,7 @@ O projeto todo foi utilizando a abordagem de Saga Orquestrado, e pode ser visual
 ao final do curso, foi também incluída uma seção de aula bônus, ensinando aos alunos a como
 converter a arquitetura desenvolvida em um Padrão Saga Coreografado, para endenter a implementação e execução de Coreografia na Saga.
 
-Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.com/course/arquitetura-microsservicos-padrao-saga-orquestrado/ (ainda não publicado)
+Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.com/course/arquitetura-de-microsservicos-padrao-saga-orquestrado/
 
 ![Arquitetura](Conte%C3%BAdos/Imagem%20Curso.png)
 
