@@ -15,7 +15,7 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 * [Tecnologias](#tecnologias)
 * [Ferramentas utilizadas](#ferramentas-utilizadas)
 * [Arquitetura Proposta](#arquitetura-proposta)
-* [Execução do projeto](#execucao)
+* [Execução do projeto](#execucao-do-projeto)
   * [01 - Execução geral via docker-compose](#compose)
   * [02 - Execução geral via automação com script em Python](#python)
   * [03 - Executando os serviços de bancos de dados e Message Broker](#servicos)
@@ -61,7 +61,7 @@ Em nossa arquitetura, teremos 4 serviços:
 
 Todos os serviços da arquitetura irão subir através do arquivo **docker-compose.yml**.
 
-## [Execução do projeto](#execucao)
+## [Execução do projeto](#execucao-do-projeto)
 
 Há várias maneiras de executar os projetos:
 
