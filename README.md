@@ -14,19 +14,19 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 
 * [Tecnologias](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#tecnologias)
 * [Ferramentas utilizadas](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#ferramentas-utilizadas)
-* [Arquitetura Proposta](#arquitetura-proposta)
-* [Execução do projeto](#execucao-do-projeto)
-  * [01 - Execução geral via docker-compose](#compose)
-  * [02 - Execução geral via automação com script em Python](#python)
-  * [03 - Executando os serviços de bancos de dados e Message Broker](#servicos)
-  * [04 - Executando manualmente via CLI](#cli)
-* [Acessando a aplicação](#acessando)
-* [Acessando tópicos com Redpanda Console](#redpanda)
-* [Dados da API](#dados)
-  * [Produtos registrados e seu estoque](#produtos)
-  * [Endpoint para iniciar a saga](#iniciar)
-  * [Endpoint para visualizar a saga](#visualizar)
-  * [Acesso ao MongoDB](#mongodb)
+* [Arquitetura Proposta](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#arquitetura-proposta)
+* [Execução do projeto](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#execu%C3%A7%C3%A3o-do-projeto)
+  * [01 - Execução geral via docker-compose](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#01---execu%C3%A7%C3%A3o-geral-via-docker-compose)
+  * [02 - Execução geral via automação com script em Python](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#02---execu%C3%A7%C3%A3o-geral-via-automa%C3%A7%C3%A3o-com-script-em-python)
+  * [03 - Executando os serviços de bancos de dados e Message Broker](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#03---executando-os-servi%C3%A7os-de-bancos-de-dados-e-message-broker)
+  * [04 - Executando manualmente via CLI](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#04---executando-manualmente-via-cli)
+* [Acessando a aplicação](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#acessando-a-aplica%C3%A7%C3%A3o)
+* [Acessando tópicos com Redpanda Console](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#acessando-t%C3%B3picos-com-redpanda-console)
+* [Dados da API](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#dados-da-api)
+  * [Produtos registrados e seu estoque](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#produtos-registrados-e-seu-estoque)
+  * [Endpoint para iniciar a saga](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#endpoint-para-iniciar-a-saga)
+  * [Endpoint para visualizar a saga](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#endpoint-para-visualizar-a-saga)
+  * [Acesso ao MongoDB](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#acesso-ao-mongodb)
 
 ## [Tecnologias](#tecnologias)
 
@@ -148,7 +148,7 @@ As aplicações executarão nas seguintes portas:
 * PostgreSQL (Inventory-DB): 5434
 * MongoDB (Order-DB): 27017
 
-## Acessando tópicos com Redpanda Console]
+## Acessando tópicos com Redpanda Console
 
 Para acessar o Redpanda Console e visualizar tópicos e publicar eventos, basta acessar:
 
