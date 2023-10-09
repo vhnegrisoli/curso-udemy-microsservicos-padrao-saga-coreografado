@@ -12,8 +12,8 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 
 ### Sumário:
 
-* [Tecnologias](#tecnologias)
-* [Ferramentas utilizadas](#ferramentas-utilizadas)
+* [Tecnologias](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#tecnologias)
+* [Ferramentas utilizadas](https://github.com/vhnegrisoli/curso-udemy-microsservicos-padrao-saga-coreografado#ferramentas-utilizadas)
 * [Arquitetura Proposta](#arquitetura-proposta)
 * [Execução do projeto](#execucao-do-projeto)
   * [01 - Execução geral via docker-compose](#compose)
