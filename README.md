@@ -40,13 +40,13 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 * **docker-compose**
 * **Redpanda Console**
 
-## [Ferramentas utilizadas](#ferramentas-utilizadas)
+## Ferramentas utilizadas
 
 * **IntelliJ IDEA Community Edition**
 * **Docker**
 * **Gradle**
 
-## [Arquitetura Proposta](#arquitetura-proposta)
+## Arquitetura Proposta
 
 No curso, desenvolveremos a seguinte aquitetura:
 
@@ -61,7 +61,7 @@ Em nossa arquitetura, teremos 4 serviços:
 
 Todos os serviços da arquitetura irão subir através do arquivo **docker-compose.yml**.
 
-## [Execução do projeto](#execucao-do-projeto)
+## Execução do projeto
 
 Há várias maneiras de executar os projetos:
 
@@ -76,7 +76,7 @@ Para rodar as aplicações, será necessário ter instalado:
 * **Java 17**
 * **Gradle 7.6 ou superior**
 
-### [01 - Execução geral via docker-compose](#compose)
+### 01 - Execução geral via docker-compose
 
 Basta executar o comando no diretório raiz do repositório:
 
@@ -84,7 +84,7 @@ Basta executar o comando no diretório raiz do repositório:
 
 **Obs.: para rodar tudo desta maneira, é necessário realizar o build das 5 aplicações, veja nos passos abaixo sobre como fazer isto.**
 
-### [02 - Execução geral via automação com script em Python](#python)
+### 02 - Execução geral via automação com script em Python
 
 Basta executar o arquivo `build.py`. Para isto, **é necessário ter o Python 3 instalado**.
 
@@ -94,7 +94,7 @@ Para executar, basta apenas executar o seguinte comando no diretório raiz do re
 
 Será realizado o `build` de todas as aplicações, removidos todos os containers e em sequência, será rodado o `docker-compose`.
 
-### [03 - Executando os serviços de bancos de dados e Message Broker](#servicos)
+### 03 - Executando os serviços de bancos de dados e Message Broker
 
 Para que seja possível executar os serviços de bancos de dados e Message Broker, como MongoDB, PostgreSQL e Apache Kafka, basta ir no diretório raiz do repositório, onde encontra-se o arquivo `docker-compose.yml` e executar o comando:
 
@@ -111,7 +111,7 @@ Ou então:
 `docker stop ($docker ps -aq)`
 `docker container prune -f`
 
-### [04 - Executando manualmente via CLI](#cli)
+### 04 - Executando manualmente via CLI
 
 Antes da execução do projeto, realize o `build` da aplicação indo no diretório raiz e executando o comando:
 
@@ -125,7 +125,7 @@ Ou então, entrar no diretório: `build/libs` e executar o comando:
 
 `java -jar nome_do_jar.jar`
 
-## [Acessando a aplicação](#acessando)
+## Acessando a aplicação
 
 Para acessar as aplicações e realizar um pedido, basta acessar a URL:
 
@@ -148,7 +148,7 @@ As aplicações executarão nas seguintes portas:
 * PostgreSQL (Inventory-DB): 5434
 * MongoDB (Order-DB): 27017
 
-## [Acessando tópicos com Redpanda Console](#redpanda)
+## Acessando tópicos com Redpanda Console]
 
 Para acessar o Redpanda Console e visualizar tópicos e publicar eventos, basta acessar:
 
@@ -158,11 +158,11 @@ Você chegará nesta página:
 
 ![Redpanda](Conte%C3%BAdos/Redpanda%20Kafka.png)
 
-## [Dados da API](#dados)
+## Dados da API
 
 É necessário conhecer o payload de envio ao fluxo da saga, assim como os produtos cadastrados e suas quantidades.
 
-### [Produtos registrados e seu estoque](#produtos)
+### Produtos registrados e seu estoque
 
 Existem 3 produtos iniciais cadastrados no serviço `product-validation-service` e suas quantidades disponíveis em `inventory-service`: 
 
@@ -171,7 +171,7 @@ Existem 3 produtos iniciais cadastrados no serviço `product-validation-service`
 * **MOVIES** (5 em estoque)
 * **MUSIC** (9 em estoque)
 
-### [Endpoint para iniciar a saga](#iniciar)
+### Endpoint para iniciar a saga
 
 **POST** http://localhost:3000/api/order
 
@@ -226,7 +226,7 @@ Resposta:
 }
 ```
 
-### [Endpoint para visualizar a saga](#visualizar)
+### Endpoint para visualizar a saga
 
 É possível recuperar os dados da saga pelo **orderId** ou pelo **transactionId**, o resultado será o mesmo:
 
@@ -302,7 +302,7 @@ Resposta:
 }
 ```
 
-### [Acesso ao MongoDB](#mongodb)
+### Acesso ao MongoDB
 
 Para conectar-se ao MongoDB via linha de comando (cli) diretamente do docker-compose, basta executar o comando abaixo:
 
