@@ -10,7 +10,16 @@ converter a arquitetura desenvolvida em um Padrão Saga Coreografado, para enden
 
 Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.com/course/arquitetura-microsservicos-padrao-saga-orquestrado/ (ainda não publicado)
 
-## Tecnologias
+Sumário:
+
+* [Tecnologias](#tecnologias)
+* [Ferramentas utilizadas](#ferramentas)
+* [Tecnologias](#arch)
+* [Tecnologias](#tecnologias)
+* [Tecnologias](#tecnologias)
+
+
+## [Tecnologias](#tecnologias)
 
 * **Java 17**
 * **Spring Boot 3**
@@ -22,13 +31,13 @@ Para acessar o curso na plataforma, basta acessar esta URL: https://www.udemy.co
 * **docker-compose**
 * **Redpanda Console**
 
-# Ferramentas utilizadas
+# [Ferramentas utilizadas](#ferramentas)
 
 * **IntelliJ IDEA Community Edition**
 * **Docker**
 * **Gradle**
 
-# Arquitetura Proposta
+# [Arquitetura Proposta](#arch)
 
 No curso, desenvolveremos a seguinte aquitetura:
 
