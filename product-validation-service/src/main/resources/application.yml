@@ -5,7 +5,7 @@ spring:
   kafka:
     bootstrap-servers: ${KAFKA_BROKER:localhost:9092}
     topic:
-      product-validation-success: product-validation-success
+      product-validation-start: product-validation-start
       product-validation-fail: product-validation-fail
       payment-success: payment-success
       notify-ending: notify-ending
